@@ -1,7 +1,22 @@
 aid: deepsparks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepsparks.png
 name: DeepSparks
-description: DeepSparks is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: DeepSparks was a Bangkok, Thailand fintech offering a lending-as-a-service platform built
+  on AI-driven alternative credit scoring. It analyzed non-traditional data to help financial institutions,
+  microlenders, and enablers approve and acquire underbanked borrowers, and offered a data API, lead
+  generation, and a rejected-applicant exchange. Founded in 2018 and backed by 500 Global and J Ventures,
+  the company has since ceased operations (deadpooled); its official site at deepsparks.ai no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/deepsparks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +24,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: deadpooled
+x-status-source: https://tracxn.com/d/companies/deepsparks/__szeoLpLyqdDUyASBewIge9K_hOM0aMvw1KQ1O5vn09I
+x-location: Watthana, Bangkok, Thailand
+x-founded: '2018'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Lending
+- Credit Scoring
+- Artificial Intelligence
+- Alternative Data
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://deepsparks.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
